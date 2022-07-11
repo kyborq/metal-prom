@@ -1,0 +1,67 @@
+h1 {
+  color: $h1-color;
+  font-weight: 500;
+  font-size: 50px;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 45px;
+  }
+  @media screen and (max-width: 560px) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 360px) {
+    font-size: 30px;
+  }
+}
+
+h2 {
+  color: $black-color;
+  font-weight: 500;
+  font-size: 40px;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 35px;
+  }
+  @media screen and (max-width: 560px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 360px) {
+    font-size: 25px;
+  }
+}
+
+h3 {
+  color: $black-color;
+  font-weight: 500;
+  font-size: 30px;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 25px;
+  }
+  @media screen and (max-width: 560px) {
+    font-size: 23px;
+  }
+  @media screen and (max-width: 360px) {
+    font-size: 20px;
+  }
+}
+
+h4 {
+  color: $black-color;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+  color: $h1-color;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  color: $black-color;
+  @media screen and (max-width: 560px) {
+    font-size: 24px;
+  }
+}
